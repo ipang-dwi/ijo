@@ -1,4 +1,4 @@
-FOR /L %%i IN (1,1,5) DO (
+FOR /L %%i IN (1,1,25) DO (
 git pull origin master
 @echo off
 @echo %DATE% - %TIME%  >> README.md
